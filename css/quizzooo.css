@@ -1,0 +1,236 @@
+BODY
+{
+    color: #FFFFFF;
+}
+
+label
+{
+    font-size: 1.4em;
+    margin-top: 0.5em;
+}
+
+.subtitle
+{
+    color: #9e9e9e;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+#main
+{
+
+    background: #514d4d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #514d4d 0%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#514d4d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #514d4d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #514d4d 0%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #514d4d 0%,#000000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #514d4d 0%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#514d4d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+    min-height:80em;
+    padding:3em;
+
+}
+
+#logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.input-qzoo, .button-qzoo
+{
+    padding: 1.3em;
+    height: 4.0em;
+    width: 100%;
+    font-size: 1.6em;
+}
+
+.button-qzoo
+{
+    margin-top: 4em;
+}
+
+.button-qzooo
+{
+    padding: 1em;
+    height: 3.5em;
+
+    font-size: 1.3em;
+
+    background: #5b5b5b; /* Old browsers */
+    background: -moz-linear-gradient(top,  #5b5b5b 0%, #7c7c7c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5b5b5b), color-stop(100%,#7c7c7c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #5b5b5b 0%,#7c7c7c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #5b5b5b 0%,#7c7c7c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #5b5b5b 0%,#7c7c7c 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #5b5b5b 0%,#7c7c7c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#7c7c7c',GradientType=0 ); /* IE6-9 */
+
+    border-color: #737373;
+    color: #ffffff;
+
+    cursor: pointer;
+
+
+}
+
+.button-qzooo:hover
+{
+    color: #b7b7b7;
+    border-color: #8c8c8c;
+}
+
+.form-button
+{
+    text-align: right;
+}
+
+
+.question
+{
+    margin-bottom: 4em;
+
+    display:inline-block;
+    vertical-align:top;
+
+    width: 100%;
+}
+
+
+.wellooo
+{
+    color: #101010;
+}
+
+.background_prev
+{
+    border-radius: 5px;
+    height: 17.5em;
+    width: 17.5em;
+    border: 1px solid #ffffff;
+
+    display:inline-block;
+    vertical-align:top;
+
+    background-color: #101010;
+}
+
+#prevzone
+{
+    padding-top: 21.8em;
+}
+
+.carousel2{
+    margin : 0 auto;
+    width: 300px;
+    height: 300px;
+    border-top: 1px solid #5b5b5b;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+
+.label-center{
+    width: 100%;
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+
+.error_field
+{
+    border: 5px solid rgba(225, 24, 0, 0.80);
+}
+.error_msg
+{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.82);
+    font-weight: bold;
+    font-size: 1.3em;
+
+    min-height: 1px;
+}
+.error_msg span
+{
+    font-weight: normal;
+    font-size: 1.4em;
+    margin-right: 10px;
+    color: #ff1b00;
+}
+
+
+
+.item, .carousel-inner
+{
+    border-radius: 10px;
+}
+
+.carousel-control.left {
+    border-radius: 10px 0 0 10px;
+}
+.carousel-control.right {
+    border-radius: 0 10px 10px 0;
+}
+
+
+.cat_item
+{
+    height: 80px;
+}
+
+.cat_carou
+{
+    height: 70px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid #7e7e7e;
+
+    background-color: #d3d3d3;
+
+    border-radius: 10px 10px 0 0;
+}
+
+.carousel-control.leftb {
+    border-radius: 10px 0 0 0;
+}
+.carousel-control.rightb {
+    border-radius: 0 10px 0 0;
+}
+.cat_control
+{
+    height: 70px;
+}
+
+.cat_title
+{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5d5d5d;
+}
+
+.img_loader
+{
+    display: inline-block;
+    font-size: 40px;
+    height: 31px;
+    width: 31px;
+    opacity: 0;
+
+    position: relative;
+    bottom: 170px;
+    left: 130px;
+
+    z-index: 900;
+}
+
+.carousel-inner
+{
+    height: 300px;
+}
